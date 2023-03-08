@@ -26,7 +26,6 @@ def lambda_handler(event, context):
         'Content-Type': 'application/json',
         'Access-Control-Allow-Headers': 'application/json',
         'Access-Control-Allow-Origin': 'https://www.jakeespinosa.com',
-        'Access-Control-Allow-Credentials': True,
         'Access-Control-Allow-Methods': 'OPTIONS,GET'
     }
     
